@@ -116,11 +116,11 @@ export function renderCategories(categories, items) {
                 </div>
                 <div class="item-code">${item.code}</div>
                 <div class="item-name">${item.name}</div>
-                <div class="item-unit">${item.unit}</div>
                 <div class="item-quantity">
                     <input type="number" class="quantity-input" value="${item.defaultQuantity}" 
                         min="0" data-code="${item.code}">
                 </div>
+                <div class="item-unit">${item.unit}</div>
                 <div class="item-price">
                     <input type="number" class="price-input" value="${item.unitPrice}" 
                         min="0" data-code="${item.code}">
